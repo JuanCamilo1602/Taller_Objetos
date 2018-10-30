@@ -1,7 +1,7 @@
  package Taller;
- /** La energÌa de una empresa se mide hora a hora,de esto se necesita saber:
- 1.	El consumo por hora , 2.  Consumo por dÌa, 3.  Consumo total del mes (teniendo en cuenta que son de 30 dÌas) 
- 4.  El consumo est· en un rango entre 200 y 400, 5.  Tomar tres meses para la estadÌstica
+ /** La energ√≠a de una empresa se mide hora a hora,de esto se necesita saber:
+ 1.	El consumo por hora , 2.  Consumo por d√≠a, 3.  Consumo total del mes (teniendo en cuenta que son de 30 d√≠as) 
+ 4.  El consumo est√° en un rango entre 200 y 400, 5.  Tomar tres meses para la estad√≠stica
  Generar y programar un algoritmo que permite visualizar lo anterior 
  */
  public class Ejercicio{
@@ -29,10 +29,11 @@
 			 mes1 = 0-((int)Math.round(Math.random())*(0-11));
 			 mes2 = 0-((int)Math.round(Math.random())*(0-11));
 			 mes3 = 0-((int)Math.round(Math.random())*(0-11));
-		}
+			
 		System.out.println("Cnosumo mes 1 :" + month[mes1]);
 		System.out.println("Cnosumo mes 2 :" + month[mes2]);
 		System.out.println("Cnosumo mes 3 :" + month[mes3]);
+		}	
 	}
 }
  
